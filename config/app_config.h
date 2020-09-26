@@ -1,0 +1,16 @@
+
+/* LICENSE */
+
+#ifndef APP_CONFIG_H_
+#define APP_CONFIG_H_
+#define WHEEL	REAR_LEFT
+#define CONFIG_CAN_LIB_ENABLED 			(1U)
+#define CONFIG_STATUS_LED_ENABLED		(1U)
+#define CONFIG_SHOCK_ABS_ENABLED		(1U)
+#define CONFIG_WHEEL_SPEED_ENABLED		(1U)
+#define CONFIG_BRAKE_DISC_TEMP_ENABLED	(1U)
+#define CONFIG_TIRE_TEMP_ENABLED		(1U)
+
+#include "sdk_config.h"
+
+#endif /* APP_CONFIG_H_ */
